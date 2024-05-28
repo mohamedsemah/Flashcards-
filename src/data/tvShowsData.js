@@ -3,36 +3,8 @@
 
 
 export const tvShowsData = [
+    
 
-
-
-
-
-
-  {
-    question: "What's Tony Soprano's profession in The Sopranos?",
-    answer: "Mob boss",
-    details: "New Jersey mob boss dealing with family and therapy",
-    image: "https://images.unsplash.com/photo-1520637736862-4d197d17c766?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "What medieval-themed show features a modern teenager who becomes a knight?",
-    answer: "Dwight in Shining Armor",
-    details: "BYUtv series about Dwight, a teen who falls into a magical realm",
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "Which show follows the Landry family as they discover a pond that leads to different time periods?",
-    answer: "The Way Home",
-    details: "Hallmark series where three generations travel through time via a magical pond",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "What's the name of the detective in the Canadian period drama set in Victorian-era Toronto?",
-    answer: "Detective William Murdoch",
-    details: "From 'Murdoch Mysteries' - a detective using innovative forensic techniques",
-    image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=300&fit=crop&crop=center"
-  },
   {
     question: "Which obsessive-compulsive detective show features a former homicide investigator?",
     answer: "Monk",
@@ -298,6 +270,12 @@ export const tvShowsData = [
     image: "https://resizing.flixster.com/E3VgF4evZBZb2TbqnunQbhyfluM=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11408531_b_h9_aa.jpg"
   },
   {
+    question: "In Dwight in Shining Armor, what is the name of the medieval princess whom Dwight accidentally awakens from a magical sleep?",
+    answer: "Gretta",
+    details: "BYUtv series about Dwight, a teen who falls into a magical realm",
+    image: "https://m.media-amazon.com/images/S/pv-target-images/5072cb2cbda53d3ef9e8772a5ede6db72339d090890df0fec4ba21b4c6044bed.jpg"
+  },
+  {
     question: "What makes the clones special in Orphan Black?",
     answer: "They're genetically identical",
     details: "Multiple clones discovering their shared identity",
@@ -362,6 +340,12 @@ export const tvShowsData = [
     answer: "The Locke Keys",
     details: "Magical keys found in Keyhouse that unlock special powers",
     image: "https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQdEnyHsRuUskirwXSVXHK1W4UZjM-3Ewc3qBsANDf6TY2M2NvSUlAAjA1cOGaLH45IXGIEg9A7klfJduwERKabIIAeqmhnOJpj4xF0D9YkPpIPx4oMu61-xexfv6en4yzE_i_2MRNtH30MgoQK1Ig6IjTGo.jpg?r=ef5"
+  },
+  {
+    question: "What's Tony Soprano's profession in The Sopranos?",
+    answer: "Mob boss",
+    details: "New Jersey mob boss dealing with family and therapy",
+    image: "https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQGVfWHa8xqIH8buit86g33MkeLBRBouUZmEt3Yb1vIuU__AKBR0m7PSOgQIuqq7XdKVJO94AOBxMz9fXsc"
   },
   {
     question: "What's the name of the spaceship in 'The Mandalorian'?",
@@ -596,6 +580,18 @@ export const tvShowsData = [
     answer: "Sherlock Holmes",
     details: "From BBC's 'Sherlock' starring Benedict Cumberbatch",
     image: "https://elanessea.wordpress.com/wp-content/uploads/2015/02/wpid-photo-10122012-703-am.jpg"
+  },
+  {
+    question: "What's the name of the detective in the Canadian period drama set in Victorian-era Toronto?",
+    answer: "Detective William Murdoch",
+    details: "From 'Murdoch Mysteries' - a detective using innovative forensic techniques",
+    image: "https://images.gem.cbc.ca/v1/synps-cbc/show/perso/cbc_murdoch_mysteries_ott_program_v06.jpg?impolicy=ott&im=Resize=1200&quality=75"
+  },
+  {
+    question: "Which show follows the Landry family as they discover a pond that leads to different time periods?",
+    answer: "The Way Home",
+    details: "Hallmark series where three generations travel through time via a magical pond",
+    image: "https://www.tvguide.com/a/img/catalog/provider/2/13/2-586885622b3f10198f1c442bcde0a7d5.jpg"
   },
   {
     question: "What's the name of Don Draper's advertising agency in Mad Men?",
