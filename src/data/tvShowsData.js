@@ -5,36 +5,9 @@
 export const tvShowsData = [
 
 
-  {
-    question: "Which obsessive-compulsive detective show features a former homicide investigator?",
-    answer: "Monk",
-    details: "Adrian Monk, played by Tony Shalhoub, solves crimes while dealing with OCD",
-    image: "https://blog.reelgood.com/wp-content/uploads/2025/01/Monk-Tv-series-1024x576.jpg"
-  },
-  {
-    question: "What HBO dark comedy follows a hitman who wants to become an actor?",
-    answer: "Barry",
-    details: "Bill Hader stars as Barry Berkman, a hitman taking acting classes",
-    image: "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "Which police procedural follows the oldest rookie in the LAPD?",
-    answer: "The Rookie",
-    details: "Nathan Fillion plays John Nolan, who becomes a cop at age 45",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "What's the name of the secret government facility that stores supernatural artifacts?",
-    answer: "Warehouse 13",
-    details: "Syfy series about agents who collect and store dangerous mystical objects",
-    image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "Which Sylvester Stallone series follows a New York mobster building a criminal empire in Oklahoma?",
-    answer: "Tulsa King",
-    details: "Stallone plays Dwight 'The General' Manfredi in this Paramount+ crime drama",
-    image: "https://images.unsplash.com/photo-1520637736862-4d197d17c766?w=400&h=300&fit=crop&crop=center"
-  },
+
+
+
   {
     question: "Which show is set in the 1960s advertising world?",
     answer: "Mad Men",
@@ -396,6 +369,12 @@ export const tvShowsData = [
     image: "https://m.media-amazon.com/images/S/pv-target-images/71ef03a3575861e2ebaf93387015bbc969ff1f75db5fea41ccd3890d5eff2806.jpg"
   },
   {
+    question: "Which obsessive-compulsive detective show features a former homicide investigator?",
+    answer: "Monk",
+    details: "Adrian Monk, played by Tony Shalhoub, solves crimes while dealing with OCD",
+    image: "https://blog.reelgood.com/wp-content/uploads/2025/01/Monk-Tv-series-1024x576.jpg"
+  },
+  {
     question: "What does 'La Casa de Papel' translate to in English?",
     answer: "Money Heist",
     details: "Spanish heist crime drama series on Netflix",
@@ -564,6 +543,12 @@ export const tvShowsData = [
     image: "https://dux0b4kt8xa5c.cloudfront.net/wp-content/uploads/2008/07/the-mentalist-patrick-jane.png"
   },
   {
+    question: "What's the name of the secret government facility that stores supernatural artifacts?",
+    answer: "Warehouse 13",
+    details: "Syfy series about agents who collect and store dangerous mystical objects",
+    image: "https://static.wikitide.net/allthetropeswiki/d/dc/Warehouse13.jpg"
+  },
+  {
     question: "What's Lucifer's last name in the TV series Lucifer?",
     answer: "Morningstar",
     details: "The Devil becomes an LAPD consultant",
@@ -594,6 +579,18 @@ export const tvShowsData = [
     image: "https://www.tvguide.com/a/img/catalog/provider/2/13/2-586885622b3f10198f1c442bcde0a7d5.jpg"
   },
   {
+    question: "Which police procedural follows the oldest rookie in the LAPD?",
+    answer: "The Rookie",
+    details: "Nathan Fillion plays John Nolan, who becomes a cop at age 45",
+    image: "https://images.tvmovie.de/95067-the-rookie-staffel-4-wann-kommen-die-neuen-episoden-zu-netflixjpg,id=bd2095ea,b=tvmovie,w=1200,rm=sk.jpeg"
+  },
+  {
+    question: "What HBO dark comedy follows a hitman who wants to become an actor?",
+    answer: "Barry",
+    details: "Bill Hader stars as Barry Berkman, a hitman taking acting classes",
+    image: "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=400&h=300&fit=crop&crop=center"
+  },
+  {
     question: "What's the name of Don Draper's advertising agency in Mad Men?",
     answer: "Sterling Cooper",
     details: "Later becomes Sterling Cooper Draper Pryce, then SC&P",
@@ -604,5 +601,11 @@ export const tvShowsData = [
     answer: "William McKinley High School",
     details: "Located in Lima, Ohio, home of the New Directions glee club",
     image: "https://public-files.gumroad.com/suppyn7ocx60chv5v6kaxges4ffy"
+  },
+  {
+    question: "Which Sylvester Stallone series follows a New York mobster building a criminal empire in Oklahoma?",
+    answer: "Tulsa King",
+    details: "Stallone plays Dwight 'The General' Manfredi in this Paramount+ crime drama",
+    image: "https://wwwimage-us.pplusstatic.com/base/files/seo/66/92/74/7d2721e6-f5db-4e0d-b50f-22cf608e5813.jpg?format=webp"
   },
 ]
