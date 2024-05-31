@@ -10,12 +10,7 @@ export const tvShowsData = [
 
 
 
-  {
-    question: "Which show features the character Sheldon Cooper?",
-    answer: "The Big Bang Theory",
-    details: "Theoretical physicist with social quirks",
-    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=300&fit=crop&crop=center"
-  },
+
   {
     question: "What's the name of the family in Modern Family?",
     answer: "The Pritchett-Dunphy-Tucker Family",
@@ -531,6 +526,12 @@ export const tvShowsData = [
     answer: "Psychic medium (fake)",
     details: "Former fake psychic who becomes a CBI consultant",
     image: "https://dux0b4kt8xa5c.cloudfront.net/wp-content/uploads/2008/07/the-mentalist-patrick-jane.png"
+  },
+  {
+    question: "Which show features the character Sheldon Cooper?",
+    answer: "The Big Bang Theory",
+    details: "Theoretical physicist with social quirks",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/The_Big_Bang_Theory_%28Chuck_Lorre_Productions%29_official_logo.svg/1200px-The_Big_Bang_Theory_%28Chuck_Lorre_Productions%29_official_logo.svg.png"
   },
   {
     question: "What's the name of the bar in Cheers?",
