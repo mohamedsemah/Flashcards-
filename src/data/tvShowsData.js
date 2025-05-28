@@ -3,13 +3,13 @@
 
 
 export const tvShowsData = [
-    
+
 
   {
     question: "Which obsessive-compulsive detective show features a former homicide investigator?",
     answer: "Monk",
     details: "Adrian Monk, played by Tony Shalhoub, solves crimes while dealing with OCD",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=center"
+    image: "https://blog.reelgood.com/wp-content/uploads/2025/01/Monk-Tv-series-1024x576.jpg"
   },
   {
     question: "What HBO dark comedy follows a hitman who wants to become an actor?",
