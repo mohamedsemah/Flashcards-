@@ -9,12 +9,7 @@ export const tvShowsData = [
 
 
 
-  {
-    question: "What's the name of the bar in Cheers?",
-    answer: "Cheers",
-    details: "Boston bar where everybody knows your name",
-    image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&h=300&fit=crop&crop=center"
-  },
+
   {
     question: "Which show features the character Sheldon Cooper?",
     answer: "The Big Bang Theory",
@@ -536,6 +531,12 @@ export const tvShowsData = [
     answer: "Psychic medium (fake)",
     details: "Former fake psychic who becomes a CBI consultant",
     image: "https://dux0b4kt8xa5c.cloudfront.net/wp-content/uploads/2008/07/the-mentalist-patrick-jane.png"
+  },
+  {
+    question: "What's the name of the bar in Cheers?",
+    answer: "Cheers",
+    details: "Boston bar where everybody knows your name",
+    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu-DuC3McqeTV2aTJJCKoiNsAtY56yNja73tOLXhwRJvD_Tf1TD0nmA8oJhgm4aUys-H7zf8FkgGUjeikPKfx56BVA5d-pMzv2F9Vwwsk7vcriOKjevw5G6SGau9sLePaI6c8G/s1600/shot-of-cheers-cast-3-HR.jpg"
   },
   {
     question: "What's the name of the secret government facility that stores supernatural artifacts?",
