@@ -8,12 +8,7 @@ export const tvShowsData = [
 
 
 
-  {
-    question: "Which show is set in the 1960s advertising world?",
-    answer: "Mad Men",
-    details: "Set in a Madison Avenue advertising agency",
-    image: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400&h=300&fit=crop&crop=center"
-  },
+
   {
     question: "What's the name of the bar in Cheers?",
     answer: "Cheers",
@@ -589,6 +584,12 @@ export const tvShowsData = [
     answer: "Barry",
     details: "Bill Hader stars as Barry Berkman, a hitman taking acting classes",
     image: "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    question: "Which show is set in the 1960s advertising world?",
+    answer: "Mad Men",
+    details: "Set in a Madison Avenue advertising agency",
+    image: "https://upload.wikimedia.org/wikipedia/en/3/33/Mad-men-title-card.jpg"
   },
   {
     question: "What's the name of Don Draper's advertising agency in Mad Men?",
