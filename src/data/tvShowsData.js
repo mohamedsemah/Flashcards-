@@ -11,12 +11,7 @@ export const tvShowsData = [
 
 
 
-  {
-    question: "What's the name of the family in Modern Family?",
-    answer: "The Pritchett-Dunphy-Tucker Family",
-    details: "Extended family with three interconnected families",
-    image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=400&h=300&fit=crop&crop=center"
-  },
+
   {
     question: "Which show features the character Jack Bauer?",
     answer: "24",
@@ -580,6 +575,12 @@ export const tvShowsData = [
     answer: "The Rookie",
     details: "Nathan Fillion plays John Nolan, who becomes a cop at age 45",
     image: "https://images.tvmovie.de/95067-the-rookie-staffel-4-wann-kommen-die-neuen-episoden-zu-netflixjpg,id=bd2095ea,b=tvmovie,w=1200,rm=sk.jpeg"
+  },
+  {
+    question: "What's the name of the family in Modern Family?",
+    answer: "The Pritchett-Dunphy-Tucker Family",
+    details: "Extended family with three interconnected families",
+    image: "https://themiamihurricane.com/wp-content/uploads/2019/09/517f9fdf63ea9b65fcfffab5bad6.png"
   },
   {
     question: "What HBO dark comedy follows a hitman who wants to become an actor?",
