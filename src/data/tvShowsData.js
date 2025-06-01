@@ -5,19 +5,6 @@
 export const tvShowsData = [
 
 
-
-
-
-
-
-
-
-  {
-    question: "Which show features the character Jack Bauer?",
-    answer: "24",
-    details: "Counter-terrorism agent racing against time",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=center"
-  },
   {
     question: "What's the name of the spaceship in Star Trek?",
     answer: "USS Enterprise",
@@ -593,6 +580,12 @@ export const tvShowsData = [
     answer: "Mad Men",
     details: "Set in a Madison Avenue advertising agency",
     image: "https://upload.wikimedia.org/wikipedia/en/3/33/Mad-men-title-card.jpg"
+  },
+  {
+    question: "Which show features the character Jack Bauer?",
+    answer: "24",
+    details: "Counter-terrorism agent racing against time",
+    image: "https://www.24spoilers.com/wp-content/uploads/2007/10/Jack-Bauer-24-Season-7-Promotional-Art-1024x576.jpg"
   },
   {
     question: "What's the name of Don Draper's advertising agency in Mad Men?",
