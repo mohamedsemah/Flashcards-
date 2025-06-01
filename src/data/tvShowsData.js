@@ -5,12 +5,7 @@
 export const tvShowsData = [
 
 
-  {
-    question: "What's the name of the spaceship in Star Trek?",
-    answer: "USS Enterprise",
-    details: "Various iterations throughout the Star Trek universe",
-    image: "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=400&h=300&fit=crop&crop=center"
-  },
+
   {
     question: "Which show is set in a paper company?",
     answer: "The Office",
@@ -400,6 +395,12 @@ export const tvShowsData = [
     answer: "Breaking Bad",
     details: "Starring Bryan Cranston as Walter White, aka, Heisenberg (2008-2013)",
     image: "https://goinswriter.com/wp-content/uploads/2013/10/breaking-bad-570x320.png"
+  },
+  {
+    question: "What's the name of the spaceship in Star Trek?",
+    answer: "USS Enterprise",
+    details: "Various iterations throughout the Star Trek universe",
+    image: "https://pop.h-cdn.co/assets/16/26/4000x2250/hd-aspect-1467144815-starshipenterprise.jpg"
   },
   {
     question: "What's the name of the luxury cruise ship in Alta Mar?",
