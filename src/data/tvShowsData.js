@@ -6,31 +6,6 @@ export const tvShowsData = [
 
 
 
-
-  {
-    question: "What's the name of the high school in Friday Night Lights?",
-    answer: "Dillon High School",
-    details: "Texas high school football team and community",
-    image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "What's the name of the law firm in Boston Legal?",
-    answer: "Crane, Poole & Schmidt",
-    details: "Law firm featuring Alan Shore and Denny Crane",
-    image: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "Which show is about a fake psychic detective?",
-    answer: "Psych",
-    details: "Shawn Spencer pretends to be psychic to solve crimes",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "What's the name of the gang in It's Always Sunny in Philadelphia?",
-    answer: "The Gang",
-    details: "Five friends who own Paddy's Pub",
-    image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&h=300&fit=crop&crop=center"
-  },
   {
     question: "Which show features the character Olivia Benson?",
     answer: "Law & Order: SVU",
@@ -398,6 +373,12 @@ export const tvShowsData = [
     image: "https://goinswriter.com/wp-content/uploads/2013/10/breaking-bad-570x320.png"
   },
   {
+    question: "What's the name of the law firm in Boston Legal?",
+    answer: "Crane, Poole & Schmidt",
+    details: "Law firm featuring Alan Shore and Denny Crane",
+    image: "https://www.televisionacademy.com/files/assets_r/containers/assets/Archives/BostonLegal-02-900x600.jpg/b1fa514652010ad526a2f6fe60b7a415/BostonLegal-02-900x600.jpg"
+  },
+  {
     question: "What's the name of the spaceship in Star Trek?",
     answer: "USS Enterprise",
     details: "Various iterations throughout the Star Trek universe",
@@ -440,6 +421,12 @@ export const tvShowsData = [
     image: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Sixfeetundercast.jpg/250px-Sixfeetundercast.jpg"
   },
   {
+    question: "Which show is about a fake psychic detective?",
+    answer: "Psych",
+    details: "Shawn Spencer pretends to be psychic to solve crimes",
+    image: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185254_b_v13_aa.jpg"
+  },
+  {
     question: "What causes the apocalypse in 12 Monkeys?",
     answer: "A deadly virus (The Annapurna Remains)",
     details: "Time travelers try to prevent a viral apocalypse",
@@ -470,6 +457,12 @@ export const tvShowsData = [
     image: "https://tvline.com/wp-content/uploads/2014/09/teen-wolf-season-finale-recap.jpg"
   },
   {
+    question: "What's the name of the main group of characters in It's Always Sunny in Philadelphia?",
+    answer: "The Gang",
+    details: "Five friends who own Paddy's Pub",
+    image: "https://m.media-amazon.com/images/M/MV5BMGYxNjQ1NDktODcwNS00YzE3LWE1ZGUtMmI4Mjc2YzMyYzdlXkEyXkFqcGdeQWRpZWdtb25n._V1_QL75_UX500_CR0,0,500,281_.jpg"
+  },
+  {
     question: "What's the name of the law firm in Suits?",
     answer: "Pearson Hardman",
     details: "Later becomes Pearson Specter, then other variations",
@@ -498,6 +491,12 @@ export const tvShowsData = [
     answer: "Pacific Princess",
     details: "The setting for romantic adventures at sea",
     image: "https://upload.wikimedia.org/wikipedia/commons/b/b5/Pacific_Princess_1987.jpg"
+  },
+  {
+    question: "What's the name of the high school in Friday Night Lights?",
+    answer: "Dillon High School",
+    details: "Texas high school football team and community",
+    image: "https://d2fxn1d7fsdeeo.cloudfront.net/kentuckyliving.com/wp-content/uploads/2017/01/07005422/AdobeStock_100003261-WEB.jpg"
   },
   {
     question: "How many hands does Harry have in Resident Alien?",
