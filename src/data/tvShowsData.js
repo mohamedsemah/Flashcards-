@@ -6,12 +6,7 @@ export const tvShowsData = [
 
 
 
-  {
-    question: "Which show is set in a paper company?",
-    answer: "The Office",
-    details: "Dunder Mifflin Paper Company mockumentary",
-    image: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400&h=300&fit=crop&crop=center"
-  },
+
   {
     question: "What's the name of the high school in Friday Night Lights?",
     answer: "Dillon High School",
@@ -383,6 +378,12 @@ export const tvShowsData = [
     answer: "Dexter",
     details: "Dexter Morgan is a forensic blood spatter analyst by day",
     image: "https://ntvb.tmsimg.com/assets/p185267_b_h10_aa.jpg?w=960&h=540"
+  },
+  {
+    question: "Which show is set in a paper company?",
+    answer: "The Office",
+    details: "Dunder Mifflin Paper Company, Inc.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/1200px-Dunder_Mifflin%2C_Inc.svg.png"
   },
   {
     question: "What's the name of the coffee shop in 'Friends'?",
