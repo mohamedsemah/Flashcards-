@@ -3,13 +3,7 @@
 
 
 export const tvShowsData = [
-
-  {
-    question: "What's the name of the spaceship in Battlestar Galactica?",
-    answer: "Galactica",
-    details: "Colonial battlestar fleeing Cylon attack",
-    image: "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=400&h=300&fit=crop&crop=center"
-  },
+    
   {
     question: "Which show features the character Rust Cohle?",
     answer: "True Detective",
@@ -129,6 +123,12 @@ export const tvShowsData = [
     answer: "They're genetically identical",
     details: "Multiple clones discovering their shared identity",
     image: "https://stephenliddell.co.uk/wp-content/uploads/2021/08/deeq8r8v4aenqpm.jpeg"
+  },
+  {
+    question: "What's the name of the spaceship in Battlestar Galactica?",
+    answer: "Galactica",
+    details: "Colonial battlestar fleeing Cylon attack",
+    image: "https://www.belloflostsouls.net/wp-content/uploads/2022/09/battlestar-galactica-header-image-e1663476813974.jpg"
   },
   {
     question: "What's the time-traveling ship called in Legends of Tomorrow?",
