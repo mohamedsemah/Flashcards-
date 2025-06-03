@@ -3,13 +3,8 @@
 
 
 export const tvShowsData = [
-    
-  {
-    question: "Which show features the character Rust Cohle?",
-    answer: "True Detective",
-    details: "Louisiana detective in Season 1",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=center"
-  },
+
+
   {
     question: "What's the name of the kingdom in The Crown?",
     answer: "United Kingdom",
@@ -165,6 +160,12 @@ export const tvShowsData = [
     answer: "The Flash",
     details: "The fastest man alive with super-speed abilities",
     image: "https://ntvb.tmsimg.com/assets/p12742479_v_h8_ad.jpg?w=960&h=540"
+  },
+  {
+    question: "Which show features the character Rust Cohle?",
+    answer: "True Detective",
+    details: "Louisiana detective in Season 1",
+    image: "https://www.slashfilm.com/img/gallery/true-detectives-matthew-mcconaughey-wrote-a-450-page-character-analysis/l-intro-1681253079.jpg"
   },
   {
     question: "What's Clark Kent's hometown in Smallville?",
