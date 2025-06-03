@@ -4,16 +4,6 @@
 
 export const tvShowsData = [
 
-
-
-
-
-  {
-    question: "Which show is about a Miami forensics expert?",
-    answer: "CSI: Miami",
-    details: "Horatio Caine leads the crime scene investigation team",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=300&fit=crop&crop=center"
-  },
   {
     question: "What's the name of the hospital in House?",
     answer: "Princeton-Plainsboro Teaching Hospital",
@@ -421,6 +411,12 @@ export const tvShowsData = [
     answer: "A deadly virus (The Annapurna Remains)",
     details: "Time travelers try to prevent a viral apocalypse",
     image: "https://upload.wikimedia.org/wikipedia/en/9/9e/Amastigotes_in_a_chorionic_villus.jpg"
+  },
+  {
+    question: "Which show is about a Miami forensics expert?",
+    answer: "CSI: Miami",
+    details: "Horatio Caine leads the crime scene investigation team",
+    image: "https://d12lhx8qhim5rg.cloudfront.net/uploads/2023/10/p184820_i_h10_ae.jpg"
   },
   {
     question: "What's Thomas Magnum's profession in Magnum P.I.?",
