@@ -4,22 +4,6 @@
 
 export const tvShowsData = [
 
-
-
-
-
-  {
-    question: "Which show features the character Rick Grimes?",
-    answer: "The Walking Dead",
-    details: "Former sheriff's deputy in zombie apocalypse",
-    image: "https://images.unsplash.com/photo-1570193726637-ff89f0d3e603?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "Which show is about time-traveling outlander?",
-    answer: "Outlander",
-    details: "Claire travels from 1945 to 1743 Scotland",
-    image: "https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=400&h=300&fit=crop&crop=center"
-  },
   {
     question: "What's the name of the spaceship in Battlestar Galactica?",
     answer: "Galactica",
@@ -285,10 +269,22 @@ export const tvShowsData = [
     image: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16764740_b_v13_aa.jpg"
   },
   {
+    question: "In Outlander, what is the name of the Scottish clan that Jamie Fraser belongs to?",
+    answer: "Clan Fraser of Lovat.",
+    details: "Jamie Fraser belongs to Clan Fraser of Lovat, a real Scottish Highland clan. In the Outlander series, his full name is James Alexander Malcolm MacKenzie Fraser, and he is the heir to Lallybroch, his family's estate. The clan is known for its loyalty, bravery, and involvement in the Jacobite risings, which is a key historical backdrop in the show.",
+    image: "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Outlander.Jamie-Fraser.webp"
+  },
+  {
     question: "Which New Zealand town is featured in The Brokenwood Mysteries?",
     answer: "Brokenwood",
     details: "Fictional town where Detective Mike Shepherd solves crimes",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Queen_Street%2C_Warkworth%2C_looking_towards_real_estate_agencies.jpg/1920px-Queen_Street%2C_Warkworth%2C_looking_towards_real_estate_agencies.jpg"
+  },
+  {
+    question: "Which show features the character Rick Grimes?",
+    answer: "The Walking Dead",
+    details: "Former sheriff's deputy in zombie apocalypse",
+    image: "https://www.hollywoodreporter.com/wp-content/uploads/2014/10/the_walking_dead_s05e01_rick_grimes.jpg?w=1440&h=810&crop=1"
   },
   {
     question: "What's the name of Tommy Shelby's gang in Peaky Blinders?",
