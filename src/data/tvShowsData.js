@@ -5,12 +5,7 @@
 export const tvShowsData = [
 
 
-  {
-    question: "What's the name of the prison in Oz?",
-    answer: "Oswald State Correctional Facility",
-    details: "Maximum-security prison setting for the HBO drama",
-    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=300&fit=crop&crop=center"
-  },
+
   {
     question: "Which show is about a high school glee club?",
     answer: "Glee",
@@ -250,6 +245,12 @@ export const tvShowsData = [
     answer: "Raymond Reddington",
     details: "Played by James Spader, an FBI's Most Wanted fugitive",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzuLmLeJklr0SqcRKlN2tQFkdunStcx9eZT3CCeiKSmDILLJs1B4uCp-ix3gRDI6Vf5jE&usqp=CAU"
+  },
+  {
+    question: "What's the name of the prison in Oz?",
+    answer: "Oswald State Correctional Facility",
+    details: "Maximum-security prison setting for the HBO drama",
+    image: "https://upload.wikimedia.org/wikipedia/it/4/4d/Penitenziario_di_Oswald.png"
   },
   {
     question: "How many main characters are connected in Sense8?",
