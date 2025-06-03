@@ -6,12 +6,7 @@ export const tvShowsData = [
 
 
 
-  {
-    question: "Which show features the character Olivia Benson?",
-    answer: "Law & Order: SVU",
-    details: "Special Victims Unit detective and captain",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=center"
-  },
+
   {
     question: "What's the name of the town in Desperate Housewives?",
     answer: "Wisteria Lane",
@@ -503,6 +498,12 @@ export const tvShowsData = [
     answer: "Four",
     details: "Alien who crash-lands on Earth and poses as a doctor",
     image: "https://somanyshows.com/wp-content/uploads/2024/06/NUP_190128_8000.jpg"
+  },
+  {
+    question: "Which show features the character Olivia Benson?",
+    answer: "Law & Order: SVU",
+    details: "Special Victims Unit detective and captain",
+    image: "https://img1.hulu.com/user/v3/artwork/720ef5c1-fc77-4924-98c5-491455a06895?base_image_bucket_name=image_manager&base_image=4f1dbf23-b10e-4002-90ba-2858259acec7&size=1200x630&format=webp&operations=%5B%7B%22gradient_vector%22%3A%22(0%2C0%2C0%2C0.5)%7C(0%2C0%2C0%2C0)%7C(0%2C600)%7C(0%2C240)%22%7D%2C%7B%22overlay%22%3A%7B%22position%22%3A%22SouthEast%7C(30%2C30)%22%2C%22operations%22%3A%5B%7B%22image%22%3A%22image_manager%7C89996f72-7b94-486e-852b-35beb77130a5%22%7D%2C%7B%22resize%22%3A%22204x204%7Cmax%22%7D%2C%7B%22extent%22%3A%22204x204%22%7D%5D%7D%7D%2C%5D"
   },
   {
     question: "What's Patrick Jane's former profession in The Mentalist?",
