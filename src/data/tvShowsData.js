@@ -6,12 +6,6 @@ export const tvShowsData = [
 
 
   {
-    question: "Which show features the character Jax Teller?",
-    answer: "Sons of Anarchy",
-    details: "Motorcycle club member in Charming, California",
-    image: "https://images.unsplash.com/photo-1520637736862-4d197d17c766?w=400&h=300&fit=crop&crop=center"
-  },
-  {
     question: "What's the name of the prison in Oz?",
     answer: "Oswald State Correctional Facility",
     details: "Maximum-security prison setting for the HBO drama",
@@ -148,6 +142,12 @@ export const tvShowsData = [
     answer: "Daredevil",
     details: "Blind lawyer who fights crime in Hell's Kitchen",
     image: "https://resizing.flixster.com/E3VgF4evZBZb2TbqnunQbhyfluM=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11408531_b_h9_aa.jpg"
+  },
+  {
+    question: "Which show features the character Jax Teller?",
+    answer: "Sons of Anarchy",
+    details: "Motorcycle club member in Charming, California",
+    image: "https://www.freep.com/gcdn/-mm-/a3623012c8bdd0f71332230a7eb89394d522fdb6/c=0-42-1198-719/local/-/media/2014/12/10/DetroitFreePress/DetroitFreePress/635538013919187502-sons-of-anarchy-hunnam-1-.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp"
   },
   {
     question: "In Dwight in Shining Armor, what is the name of the medieval princess whom Dwight accidentally awakens from a magical sleep?",
