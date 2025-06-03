@@ -6,18 +6,8 @@ export const tvShowsData = [
 
 
 
-  {
-    question: "Which show is about a high school glee club?",
-    answer: "Glee",
-    details: "New Directions glee club at McKinley High",
-    image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "What's the name of the advertising agency in Bewitched?",
-    answer: "McMann & Tate",
-    details: "Where Darrin Stephens works",
-    image: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400&h=300&fit=crop&crop=center"
-  },
+
+
   {
     question: "Which show features the character Rick Grimes?",
     answer: "The Walking Dead",
@@ -389,6 +379,18 @@ export const tvShowsData = [
     answer: "4, 8, 15, 16, 23, 42",
     details: "The numbers 4, 8, 15, 16, 23, 42 are a recurring mystery in Lost. These numbers are tied to the island’s mythology and the Valenzetti Equation, which predicts humanity’s end. In the show, entering them into a computer every 108 minutes (their sum) was part of preventing an unknown catastrophe.",
     image: "https://es.web.img3.acsta.net/img/11/3f/113f0c27d71646dbd0167b1575b162b7.jpg"
+  },
+  {
+    question: "Which show is about a high school glee club?",
+    answer: "Glee",
+    details: "New Directions glee club at McKinley High",
+    image: "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/06/Glee-cast.jpg"
+  },
+  {
+    question: "What's the name of the advertising agency in Bewitched?",
+    answer: "McMann & Tate",
+    details: "Where Darrin Stephens works",
+    image: "https://ih1.redbubble.net/image.2617113399.7899/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
   },
   {
     question: "What does Barney Stinson always say in How I Met Your Mother?",
