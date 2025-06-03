@@ -7,12 +7,7 @@ export const tvShowsData = [
 
 
 
-  {
-    question: "What's the name of the town in Desperate Housewives?",
-    answer: "Wisteria Lane",
-    details: "Suburban street where the housewives live",
-    image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&h=300&fit=crop&crop=center"
-  },
+
   {
     question: "Which show is about a Miami forensics expert?",
     answer: "CSI: Miami",
@@ -492,6 +487,12 @@ export const tvShowsData = [
     answer: "Dillon High School",
     details: "Texas high school football team and community",
     image: "https://d2fxn1d7fsdeeo.cloudfront.net/kentuckyliving.com/wp-content/uploads/2017/01/07005422/AdobeStock_100003261-WEB.jpg"
+  },
+  {
+    question: "What's the name of the town in Desperate Housewives?",
+    answer: "Wisteria Lane",
+    details: "Suburban street where the housewives live",
+    image: "https://cdn.tvfanatic.com/uploads/2025/04/Screenshot-2025-04-29-at-6.11.52%E2%80%AFPM.png"
   },
   {
     question: "How many hands does Harry have in Resident Alien?",
