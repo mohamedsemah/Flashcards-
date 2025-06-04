@@ -5,12 +5,7 @@
 export const tvShowsData = [
 
 
-  {
-    question: "What's the name of the fictional continent in Game of Thrones?",
-    answer: "Westeros",
-    details: "Primary setting for the Seven Kingdoms",
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=center"
-  },
+
 
   {
     question: "Which show is about supernatural brothers?",
@@ -173,6 +168,12 @@ export const tvShowsData = [
     answer: "Flight 828",
     details: "Passengers experience time differently after landing",
     image: "https://www.nme.com/wp-content/uploads/2023/06/Manifest-season-4-part-2.jpg"
+  },
+  {
+    question: "What's the name of the fictional continent in Game of Thrones?",
+    answer: "Westeros",
+    details: "Primary setting for the Seven Kingdoms",
+    image: "https://i.etsystatic.com/37268737/r/il/81f290/6728044426/il_fullxfull.6728044426_o168.jpg"
   },
   {
     question: "What type of creature is Diana Bishop in A Discovery of Witches?",
