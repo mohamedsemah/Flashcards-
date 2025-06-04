@@ -6,23 +6,12 @@ export const tvShowsData = [
 
 
   {
-    question: "What's the name of the kingdom in The Crown?",
-    answer: "United Kingdom",
-    details: "Chronicles the reign of Queen Elizabeth II",
-    image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=300&fit=crop&crop=center"
-  },
-  {
     question: "What's the name of the fictional continent in Game of Thrones?",
     answer: "Westeros",
     details: "Primary setting for the Seven Kingdoms",
     image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=center"
   },
-  {
-    question: "What's the name of the town in Riverdale?",
-    answer: "Riverdale",
-    details: "Dark reimagining of Archie Comics",
-    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=400&h=300&fit=crop&crop=center"
-  },
+
   {
     question: "Which show is about supernatural brothers?",
     answer: "Supernatural",
@@ -34,12 +23,6 @@ export const tvShowsData = [
     answer: "Mad Men",
     details: "Advertising executive with a mysterious past",
     image: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "What's the name of the town in Mayberry R.F.D.?",
-    answer: "Mayberry",
-    details: "Small fictional town in North Carolina",
-    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=400&h=300&fit=crop&crop=center"
   },
   {
     question: "Which show is about a plane crash on a mysterious island?",
@@ -168,6 +151,18 @@ export const tvShowsData = [
     image: "https://www.slashfilm.com/img/gallery/true-detectives-matthew-mcconaughey-wrote-a-450-page-character-analysis/l-intro-1681253079.jpg"
   },
   {
+    question: "What's the name of the town in Riverdale?",
+    answer: "Riverdale",
+    details: "Dark reimagining of Archie Comics",
+    image: "https://www.j-14.com/wp-content/uploads/2017/10/riverdalewelcome.jpg?w=500&h=268&crop=1&resize=1180%2C634"
+  },
+  {
+    question: "What's the name of the town in Mayberry R.F.D.?",
+    answer: "Mayberry",
+    details: "Small fictional town in North Carolina",
+    image: "https://ntvb.tmsimg.com/assets/p439464_b_h10_ab.jpg?w=1280&h=720"
+  },
+  {
     question: "What's Clark Kent's hometown in Smallville?",
     answer: "Smallville, Kansas",
     details: "Where young Clark Kent grows up before becoming Superman",
@@ -220,6 +215,12 @@ export const tvShowsData = [
     answer: "Raymond Reddington",
     details: "Played by James Spader, an FBI's Most Wanted fugitive",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzuLmLeJklr0SqcRKlN2tQFkdunStcx9eZT3CCeiKSmDILLJs1B4uCp-ix3gRDI6Vf5jE&usqp=CAU"
+  },
+  {
+    question: "What's the name of the kingdom in The Crown?",
+    answer: "United Kingdom",
+    details: "Chronicles the reign of Queen Elizabeth II",
+    image: "https://i.insider.com/583861a865edfe20008b4a9d?width=800&format=jpeg&auto=webp"
   },
   {
     question: "What's the name of the prison in Oz?",
