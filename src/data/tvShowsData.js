@@ -7,12 +7,12 @@ export const tvShowsData = [
 
 
 
-    
+
   {
     question: "Which show is about supernatural brothers?",
     answer: "Supernatural",
-    details: "Sam and Dean Winchester hunt monsters",
-    image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop&crop=center"
+    details: "Sam and Dean Winchester hunt demons and monsters",
+    image: "https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/03/the-best-episode-from-each-season-of-supernatural.jpg"
   },
   {
     question: "Which show features the character Don Draper?",
