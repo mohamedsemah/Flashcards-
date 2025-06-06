@@ -8,12 +8,7 @@ export const tvShowsData = [
 
 
 
-  {
-    question: "Which show is about supernatural brothers?",
-    answer: "Supernatural",
-    details: "Sam and Dean Winchester hunt demons and monsters",
-    image: "https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/03/the-best-episode-from-each-season-of-supernatural.jpg"
-  },
+
   {
     question: "Which show features the character Don Draper?",
     answer: "Mad Men",
@@ -79,6 +74,12 @@ export const tvShowsData = [
     answer: "Daredevil",
     details: "Blind lawyer who fights crime in Hell's Kitchen",
     image: "https://resizing.flixster.com/E3VgF4evZBZb2TbqnunQbhyfluM=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11408531_b_h9_aa.jpg"
+  },
+  {
+    question: "Which show is about supernatural brothers?",
+    answer: "Supernatural",
+    details: "Sam and Dean Winchester hunt demons and monsters",
+    image: "https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/03/the-best-episode-from-each-season-of-supernatural.jpg"
   },
   {
     question: "Which show features the character Jax Teller?",
