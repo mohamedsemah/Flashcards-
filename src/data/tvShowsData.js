@@ -3,27 +3,29 @@
 
 
 export const tvShowsData = [
-
+  {
+    question: "What is the name of Ross and Monica’s dog that died when they were kids?",
+    answer: "Chi-Chi",
+    details: "In Friends Season 2, Episode 8 (\"The One with the List\"), Ross mentions that his parents told him Chi-Chi \"went to live on a farm\" when in fact, the dog had died.",
+    image: "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/11/friends-feature-image.jpg"
+  },
+  {
+    question: "",
+    answer: "",
+    details: "",
+    image: ""
+  },
   {
     question: "In Orphan Black, what is the name of the secret scientific organization responsible for creating the clones?",
     answer: "The Dyad Institute",
     details: "The Dyad Institute is a powerful biotechnology corporation in Orphan Black that is secretly behind the cloning experiment known as Project Leda. Throughout the series, it plays a central role in monitoring, manipulating, and controlling the lives of the clones, often under the guise of medical care and support. The organization's ethical boundaries are constantly questioned as the clones fight for autonomy and truth.",
     image: "https://storage.googleapis.com/moviemaps/img/a6q.et540i.940.jpg"
   },
-
   {
     question: "Who is the #1 threat on Raymond Reddington's blacklist",
     answer: "Elizabeth Keen (No. 1)",
     details: "In Season 8, Episode 22 (the season finale), Elizabeth Keen is revealed as Blacklister No. 1. Rather than being a threat in the traditional criminal sense, Liz becomes #1 because of the personal danger she poses to Reddington’s secrets, identity, and the empire he's built to protect her. Her place at the top of the list is symbolic of betrayal, loss, and unresolved truths between them",
     image: "https://cdn.images.express.co.uk/img/dynamic/20/590x/1518775_1.jpg"
-  },
-
-
-  {
-    question: "",
-    answer: "",
-    details: "",
-    image: ""
   },
   {
     question: "What's the name of the bar in How I Met Your Mother?",
