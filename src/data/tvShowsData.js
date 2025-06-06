@@ -9,12 +9,11 @@ export const tvShowsData = [
 
 
 
-
   {
-    question: "What's the name of the spaceship in Firefly?",
-    answer: "Serenity",
-    details: "Firefly-class transport ship",
-    image: "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=400&h=300&fit=crop&crop=center"
+    question: "",
+    answer: "",
+    details: "",
+    image: ""
   },
   {
     question: "What's the name of the bar in How I Met Your Mother?",
@@ -27,30 +26,6 @@ export const tvShowsData = [
     answer: "Litchfield Penitentiary",
     details: "A minimum-security federal prison in New York",
     image: "https://variety.com/wp-content/uploads/2019/07/oitnb_709_unit_00625_rc.jpg"
-  },
-  {
-    question: "Which show is about a paper company in Scranton?",
-    answer: "The Office",
-    details: "Dunder Mifflin Paper Company documentary",
-    image: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "What's the name of the hospital in Scrubs?",
-    answer: "Sacred Heart Hospital",
-    details: "Teaching hospital where J.D. works",
-    image: "https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "What's the name of the town in Gilmore Girls?",
-    answer: "Stars Hollow, Connecticut",
-    details: "Quirky small town where everyone knows everyone",
-    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "What's the name of the spaceship in Star Trek: The Next Generation?",
-    answer: "USS Enterprise NCC-1701-D",
-    details: "Galaxy-class starship commanded by Captain Picard",
-    image: "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=400&h=300&fit=crop&crop=center"
   },
   {
     question: "What's the name of the coffee shop in Friends?",
