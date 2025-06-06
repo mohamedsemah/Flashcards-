@@ -4,16 +4,22 @@
 
 export const tvShowsData = [
   {
-    question: "What is the name of Ross and Monica’s dog that died when they were kids?",
-    answer: "Chi-Chi",
-    details: "In Friends Season 2, Episode 8 (\"The One with the List\"), Ross mentions that his parents told him Chi-Chi \"went to live on a farm\" when in fact, the dog had died.",
-    image: "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/11/friends-feature-image.jpg"
-  },
-  {
     question: "",
     answer: "",
     details: "",
     image: ""
+  },
+  {
+    question: "What is the name of Sherlock Holmes’ older brother?",
+    answer: "Mycroft Holmes",
+    details: "Mycroft Holmes is Sherlock’s older brother, first introduced in Sir Arthur Conan Doyle’s story \"The Greek Interpreter\". He is described as being even more intellectually gifted than Sherlock, though far less active. Mycroft works for the British government in a mysterious, high-ranking role and prefers to observe rather than investigate.",
+    image: "https://tellyspotting.kera.org/wp-content/uploads/2020/07/Q4z4hAviWRonz87PbnwNE9.jpeg"
+  },
+  {
+    question: "What is the name of Ross and Monica’s dog that died when they were kids?",
+    answer: "Chi-Chi",
+    details: "In Friends Season 2, Episode 8 (\"The One with the List\"), Ross mentions that his parents told him Chi-Chi \"went to live on a farm\" when in fact, the dog had died.",
+    image: "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/11/friends-feature-image.jpg"
   },
   {
     question: "In Orphan Black, what is the name of the secret scientific organization responsible for creating the clones?",
