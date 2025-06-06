@@ -6,7 +6,12 @@ export const tvShowsData = [
 
 
 
-
+  {
+    question: "Who is the #1 threat on Raymond Reddington's blacklist",
+    answer: "Elizabeth Keen (No. 1)",
+    details: "In Season 8, Episode 22 (the season finale), Elizabeth Keen is revealed as Blacklister No. 1. Rather than being a threat in the traditional criminal sense, Liz becomes #1 because of the personal danger she poses to Reddington’s secrets, identity, and the empire he's built to protect her. Her place at the top of the list is symbolic of betrayal, loss, and unresolved truths between them",
+    image: "https://cdn.images.express.co.uk/img/dynamic/20/590x/1518775_1.jpg"
+  },
 
 
   {
