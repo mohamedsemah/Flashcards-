@@ -9,18 +9,7 @@ export const tvShowsData = [
 
 
 
-  {
-    question: "Which show features the character Don Draper?",
-    answer: "Mad Men",
-    details: "Advertising executive with a mysterious past",
-    image: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "Which show is about a plane crash on a mysterious island?",
-    answer: "Lost",
-    details: "Oceanic Flight 815 survivors on strange island",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&crop=center"
-  },
+
   {
     question: "What's the name of the spaceship in Firefly?",
     answer: "Serenity",
