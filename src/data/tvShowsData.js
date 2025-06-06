@@ -10,6 +10,12 @@ export const tvShowsData = [
     image: ""
   },
   {
+    question: "What is the name of the town where Jack Reacher is arrested in Season 1 of the Reacher TV series?",
+    answer: "Margrave, Georgia.",
+    details: "In Season 1 of Reacher, Jack Reacher arrives in the small, fictional town of Margrave, Georgia, only to be immediately arrested for a murder he didn’t commit.",
+    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOswTeCsd_xAJNngHSmZ-S9upSxpnZySrFiix6GKcCm-Xy6Ns2LCH1hU2SV6MUuZXDCaP5JW3JUIV9PsrroDM2vrzrvCv-dQXLrLtrMJEIkgSVx-uIL29TDtSpojAicIqrOaeDeK24I9fv8qmxb_JvDGLYLAp3eLEklosHtbda1L-GTg/w1200-h630-p-k-no-nu/0.jpg"
+  },
+  {
     question: "What is the name of Sherlock Holmes’ older brother?",
     answer: "Mycroft Holmes",
     details: "Mycroft Holmes is Sherlock’s older brother, first introduced in Sir Arthur Conan Doyle’s story \"The Greek Interpreter\". He is described as being even more intellectually gifted than Sherlock, though far less active. Mycroft works for the British government in a mysterious, high-ranking role and prefers to observe rather than investigate.",
