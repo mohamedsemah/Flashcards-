@@ -10,6 +10,12 @@ export const tvShowsData = [
     image: ""
   },
   {
+    question: "",
+    answer: "",
+    details: "",
+    image: ""
+  },
+  {
     question: "What is the name of the town where Jack Reacher is arrested in Season 1 of the Reacher TV series?",
     answer: "Margrave, Georgia.",
     details: "In Season 1 of Reacher, Jack Reacher arrives in the small, fictional town of Margrave, Georgia, only to be immediately arrested for a murder he didn’t commit.",
