@@ -505,4 +505,98 @@ export const tvShowsData = [
   },
   {
     question: "Which show features the character Sheldon Cooper?",
-
+    answer: "The Big Bang Theory",
+    details: "Theoretical physicist with social quirks",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/The_Big_Bang_Theory_%28Chuck_Lorre_Productions%29_official_logo.svg/1200px-The_Big_Bang_Theory_%28Chuck_Lorre_Productions%29_official_logo.svg.png"
+  },
+  {
+    question: "What's the name of the bar in Cheers?",
+    answer: "Cheers",
+    details: "Boston bar where everybody knows your name",
+    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu-DuC3McqeTV2aTJJCKoiNsAtY56yNja73tOLXhwRJvD_Tf1TD0nmA8oJhgm4aUys-H7zf8FkgGUjeikPKfx56BVA5d-pMzv2F9Vwwsk7vcriOKjevw5G6SGau9sLePaI6c8G/s1600/shot-of-cheers-cast-3-HR.jpg"
+  },
+  {
+    question: "What's the name of the secret government facility that stores supernatural artifacts?",
+    answer: "Warehouse 13",
+    details: "Syfy series about agents who collect and store dangerous mystical objects",
+    image: "https://static.wikitide.net/allthetropeswiki/d/dc/Warehouse13.jpg"
+  },
+  {
+    question: "What's Lucifer's last name in the TV series Lucifer?",
+    answer: "Morningstar",
+    details: "The Devil becomes an LAPD consultant",
+    image: "https://images2.alphacoders.com/109/thumb-1920-1091219.jpg"
+  },
+  {
+    question: "What does the team in Travelers do?",
+    answer: "Time travel to prevent the apocalypse",
+    details: "Consciousness from the future inhabits present-day bodies",
+    image: "https://ntvb.tmsimg.com/assets/p13257200_b_h10_ad.jpg?w=1280&h=720"
+  },
+  {
+    question: "Who lives at 221B Baker Street?",
+    answer: "Sherlock Holmes",
+    details: "From BBC's 'Sherlock' starring Benedict Cumberbatch",
+    image: "https://elanessea.wordpress.com/wp-content/uploads/2015/02/wpid-photo-10122012-703-am.jpg"
+  },
+  {
+    question: "What's the name of the detective in the Canadian period drama set in Victorian-era Toronto?",
+    answer: "Detective William Murdoch",
+    details: "From 'Murdoch Mysteries' - a detective using innovative forensic techniques",
+    image: "https://images.gem.cbc.ca/v1/synps-cbc/show/perso/cbc_murdoch_mysteries_ott_program_v06.jpg?impolicy=ott&im=Resize=1200&quality=75"
+  },
+  {
+    question: "Which show follows the Landry family as they discover a pond that leads to different time periods?",
+    answer: "The Way Home",
+    details: "Hallmark series where three generations travel through time via a magical pond",
+    image: "https://www.tvguide.com/a/img/catalog/provider/2/13/2-586885622b3f10198f1c442bcde0a7d5.jpg"
+  },
+  {
+    question: "Which police procedural follows the oldest rookie in the LAPD?",
+    answer: "The Rookie",
+    details: "Nathan Fillion plays John Nolan, who becomes a cop at age 45",
+    image: "https://images.tvmovie.de/95067-the-rookie-staffel-4-wann-kommen-die-neuen-episoden-zu-netflixjpg,id=bd2095ea,b=tvmovie,w=1200,rm=sk.jpeg"
+  },
+  {
+    question: "What's the name of the family in Modern Family?",
+    answer: "The Pritchett-Dunphy-Tucker Family",
+    details: "Extended family with three interconnected families",
+    image: "https://themiamihurricane.com/wp-content/uploads/2019/09/517f9fdf63ea9b65fcfffab5bad6.png"
+  },
+  {
+    question: "What HBO dark comedy follows a hitman who wants to become an actor?",
+    answer: "Barry",
+    details: "Bill Hader stars as Barry Berkman, a hitman taking acting classes",
+    image: "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    question: "Which show is set in the 1960s advertising world?",
+    answer: "Mad Men",
+    details: "Set in a Madison Avenue advertising agency",
+    image: "https://upload.wikimedia.org/wikipedia/en/3/33/Mad-men-title-card.jpg"
+  },
+  {
+    question: "Which show features the character Jack Bauer?",
+    answer: "24",
+    details: "Counter-terrorism agent racing against time",
+    image: "https://www.24spoilers.com/wp-content/uploads/2007/10/Jack-Bauer-24-Season-7-Promotional-Art-1024x576.jpg"
+  },
+  {
+    question: "What's the name of Don Draper's advertising agency in Mad Men?",
+    answer: "Sterling Cooper",
+    details: "Later becomes Sterling Cooper Draper Pryce, then SC&P",
+    image: "https://i.redd.it/6ckxecruvs2b1.png"
+  },
+  {
+    question: "What's the name of the high school in Glee?",
+    answer: "William McKinley High School",
+    details: "Located in Lima, Ohio, home of the New Directions glee club",
+    image: "https://public-files.gumroad.com/suppyn7ocx60chv5v6kaxges4ffy"
+  },
+  {
+    question: "Which Sylvester Stallone series follows a New York mobster building a criminal empire in Oklahoma?",
+    answer: "Tulsa King",
+    details: "Stallone plays Dwight 'The General' Manfredi in this Paramount+ crime drama",
+    image: "https://wwwimage-us.pplusstatic.com/base/files/seo/66/92/74/7d2721e6-f5db-4e0d-b50f-22cf608e5813.jpg?format=webp"
+  },
+]
