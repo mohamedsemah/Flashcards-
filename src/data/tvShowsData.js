@@ -587,7 +587,6 @@ export const tvShowsData = [
     details: "Later becomes Sterling Cooper Draper Pryce, then SC&P",
     image: "https://i.redd.it/6ckxecruvs2b1.png"
   },
-    
   {
     question: "What's the name of the high school in Glee?",
     answer: "William McKinley High School",
