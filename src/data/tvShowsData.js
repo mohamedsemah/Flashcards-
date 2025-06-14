@@ -4,16 +4,16 @@
 
 export const tvShowsData = [
   {
-    question: "What is the name of the pub owned by the Shelby family in Peaky Blinders?",
-    answer: "The Garrison.",
-    details: "The Garrison is the central pub in Peaky Blinders and serves as the Shelby family’s base of operations throughout much of the series. It's where they conduct business, hold meetings, and assert their dominance over Small Heath, Birmingham.",
-    image: "https://i.dailymail.co.uk/1s/2019/09/08/01/18203908-0-image-a-73_1567901451893.jpg"
-  },
-  {
     question: "",
     answer: "",
     details: "",
     image: ""
+  },
+  {
+    question: "What is the name of the pub owned by the Shelby family in Peaky Blinders?",
+    answer: "The Garrison.",
+    details: "The Garrison is the central pub in Peaky Blinders and serves as the Shelby family’s base of operations throughout much of the series. It's where they conduct business, hold meetings, and assert their dominance over Small Heath, Birmingham.",
+    image: "https://i.dailymail.co.uk/1s/2019/09/08/01/18203908-0-image-a-73_1567901451893.jpg"
   },
   {
     question: "What is the name of the town where Jack Reacher is arrested in Season 1 of the Reacher TV series?",
