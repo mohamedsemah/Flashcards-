@@ -1,7 +1,3 @@
-
-
-
-
 export const tvShowsData = [
   {
     question: "Who is the main character known as 'Red' in The Blacklist?",
