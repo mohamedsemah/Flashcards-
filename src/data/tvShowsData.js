@@ -4,10 +4,16 @@
 
 export const tvShowsData = [
   {
-    question: "",
-    answer: "",
-    details: "",
-    image: ""
+    question: "Who is the main character known as 'Red' in The Blacklist?",
+    answer: "Raymond Reddington",
+    details: "Played by James Spader, an FBI's Most Wanted fugitive",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzuLmLeJklr0SqcRKlN2tQFkdunStcx9eZT3CCeiKSmDILLJs1B4uCp-ix3gRDI6Vf5jE&usqp=CAU"
+  },
+  {
+    question: "Which actor has played the Doctor the most times in the Doctor Who TV series?",
+    answer: "Tom Baker",
+    details: "Tom Baker portrayed the Fourth Doctor from 1974 to 1981, making him the actor with the longest continuous tenure in the role, appearing in seven seasons. His version of the Doctor—with the iconic long scarf and eccentric personality—became one of the most recognizable and beloved incarnations of the character.",
+    image: "https://www.looper.com/img/gallery/the-top-doctor-who-stories-of-the-tom-baker-era/intro-1610408422.jpg"
   },
   {
     question: "What is the name of the pub owned by the Shelby family in Peaky Blinders?",
@@ -206,12 +212,6 @@ export const tvShowsData = [
     answer: "Twin Peaks",
     details: "Washington town where Laura Palmer's murder is investigated",
     image: "https://static01.nyt.com/images/2022/12/15/arts/13peaks-theme/13peaks-theme-superJumbo.jpg"
-  },
-  {
-    question: "Who is the main character known as 'Red' in The Blacklist?",
-    answer: "Raymond Reddington",
-    details: "Played by James Spader, an FBI's Most Wanted fugitive",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzuLmLeJklr0SqcRKlN2tQFkdunStcx9eZT3CCeiKSmDILLJs1B4uCp-ix3gRDI6Vf5jE&usqp=CAU"
   },
   {
     question: "What's the name of the kingdom in The Crown?",
