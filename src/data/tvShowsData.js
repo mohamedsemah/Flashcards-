@@ -6,24 +6,9 @@ export const tvShowsData = [
 
 
 
-  {
-    question: "What's the name of the cruise ship in The Love Boat?",
-    answer: "Pacific Princess",
-    details: "The setting for romantic adventures at sea",
-    image: "https://upload.wikimedia.org/wikipedia/commons/b/b5/Pacific_Princess_1987.jpg"
-  },
-  {
-    question: "What's the name of the island in Lost?",
-    answer: "The Island",
-    details: "Mysterious island where Oceanic Flight 815 crashed",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "Which show features FBI agents Fox Mulder and Dana Scully?",
-    answer: "The X-Files",
-    details: "They investigate paranormal and extraterrestrial cases",
-    image: "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=400&h=300&fit=crop&crop=center"
-  },
+
+
+
   {
     question: "What's Tony Soprano's profession in The Sopranos?",
     answer: "Mob boss",
@@ -505,6 +490,12 @@ export const tvShowsData = [
     image: "https://www.planetware.com/wpimages/2023/10/new-mexico-roswell-attractions-things-to-do-welcome-sign.jpg"
   },
   {
+    question: "Which sequence of six mysterious numbers recurs throughout Lost—appearing on the hatch, in radio transmissions, and on Hurley’s winning lottery ticket?",
+    answer: "4, 8, 15, 16, 23, 42",
+    details: "The numbers 4, 8, 15, 16, 23, 42 are a recurring mystery in Lost. These numbers are tied to the island’s mythology and the Valenzetti Equation, which predicts humanity’s end. In the show, entering them into a computer every 108 minutes (their sum) was part of preventing an unknown catastrophe.",
+    image: "https://es.web.img3.acsta.net/img/11/3f/113f0c27d71646dbd0167b1575b162b7.jpg"
+  },
+  {
     question: "What does Barney Stinson always say in How I Met Your Mother?",
     answer: "Legen-wait for it-dary",
     details: "His catchphrase meaning legendary",
@@ -535,6 +526,12 @@ export const tvShowsData = [
     image: "https://ntvb.tmsimg.com/assets/p8282918_b_h8_bn.jpg?w=1280&h=720"
   },
   {
+    question: "Which show features FBI agents Fox Mulder and Dana Scully?",
+    answer: "The X-Files",
+    details: "They investigate paranormal and extraterrestrial cases",
+    image: "https://resizing.flixster.com/f0Z5MUzTlBzT3v0A51IGGHI6EhU=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p21268_v_h9_ao.jpg"
+  },
+  {
     question: "What type of supernatural creature is Scott McCall in Teen Wolf?",
     answer: "A Werewolf",
     details: "A teenage werewolf in Beacon Hills",
@@ -563,6 +560,12 @@ export const tvShowsData = [
     answer: "The Mayfair Family",
     details: "Based on Anne Rice's Lives of the Mayfair Witches",
     image: "https://resizing.flixster.com/K9FslWcOGnQ1t0sIfJ_DYodd9b8=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23584602_b_h9_ap.jpg"
+  },
+  {
+    question: "What's the name of the cruise ship in The Love Boat?",
+    answer: "Pacific Princess",
+    details: "The setting for romantic adventures at sea",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b5/Pacific_Princess_1987.jpg"
   },
   {
     question: "How many hands does Harry have in Resident Alien?",
