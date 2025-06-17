@@ -10,7 +10,7 @@ export const tvShowsData = [
     question: "What's the name of the cruise ship in The Love Boat?",
     answer: "Pacific Princess",
     details: "The setting for romantic adventures at sea",
-    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop&crop=center"
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b5/Pacific_Princess_1987.jpg"
   },
   {
     question: "What's the name of the island in Lost?",
