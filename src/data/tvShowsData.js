@@ -6,27 +6,6 @@ export const tvShowsData = [
 
 
 
-
-
-
-  {
-    question: "Which show is about a serial killer who works for Miami Metro Police?",
-    answer: "Dexter",
-    details: "Dexter Morgan is a forensic blood spatter analyst by day",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "What's the name of Don Draper's advertising agency in Mad Men?",
-    answer: "Sterling Cooper",
-    details: "Later becomes Sterling Cooper Draper Pryce, then SC&P",
-    image: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400&h=300&fit=crop&crop=center"
-  },
-  {
-    question: "Which family runs the funeral home in Six Feet Under?",
-    answer: "The Fisher Family",
-    details: "Fisher & Sons Funeral Home in Los Angeles",
-    image: "https://images.unsplash.com/photo-1527613426441-4da17471b66d?w=400&h=300&fit=crop&crop=center"
-  },
   {
     question: "What's the name of the cruise ship in The Love Boat?",
     answer: "Pacific Princess",
@@ -490,6 +469,12 @@ export const tvShowsData = [
     image: "https://www.noesnest.com/wp-content/uploads/sites/14/2021/11/Saturday-image.jpg"
   },
   {
+    question: "Which show is about a serial killer who works for Miami Metro Police?",
+    answer: "Dexter",
+    details: "Dexter Morgan is a forensic blood spatter analyst by day",
+    image: "https://ntvb.tmsimg.com/assets/p185267_b_h10_aa.jpg?w=960&h=540"
+  },
+  {
     question: "What's the name of the coffee shop in 'Friends'?",
     answer: "Central Perk",
     details: "The main hangout spot for the six friends in New York City",
@@ -524,6 +509,12 @@ export const tvShowsData = [
     answer: "Legen-wait for it-dary",
     details: "His catchphrase meaning legendary",
     image: "https://ih1.redbubble.net/image.1777500524.2406/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg"
+  },
+  {
+    question: "Which family runs the funeral home in Six Feet Under?",
+    answer: "The Fisher Family",
+    details: "Fisher & Sons Funeral Home in Los Angeles",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Sixfeetundercast.jpg/250px-Sixfeetundercast.jpg"
   },
   {
     question: "What causes the apocalypse in 12 Monkeys?",
@@ -602,6 +593,12 @@ export const tvShowsData = [
     answer: "Sherlock Holmes",
     details: "From BBC's 'Sherlock' starring Benedict Cumberbatch",
     image: "https://elanessea.wordpress.com/wp-content/uploads/2015/02/wpid-photo-10122012-703-am.jpg"
+  },
+  {
+    question: "What's the name of Don Draper's advertising agency in Mad Men?",
+    answer: "Sterling Cooper",
+    details: "Later becomes Sterling Cooper Draper Pryce, then SC&P",
+    image: "https://i.redd.it/6ckxecruvs2b1.png"
   },
   {
     question: "What's the name of the high school in Glee?",
