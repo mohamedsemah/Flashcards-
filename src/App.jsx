@@ -18,9 +18,12 @@ function App() {
   }
 
   const handleNextCard = () => {
-    const newIndex = getRandomCardIndex()
-    setCurrentCardIndex(newIndex)
-    setIsFlipped(false) // Reset to front side when showing new card
+    setIsFlipped(false) // Reset to front side FIRST
+    // Small delay to ensure flip animation completes before changing card
+    setTimeout(() => {
+      const newIndex = getRandomCardIndex()
+      setCurrentCardIndex(newIndex)
+    }, 150) // 150ms delay - shorter than the 600ms flip animation
   }
 
   const handleFlipCard = () => {
