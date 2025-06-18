@@ -2,7 +2,7 @@ export const tvShowsData = [
   {
     question: "Which show features a chemistry teacher turned meth cook?",
     answer: "Breaking Bad",
-    details: "Starring Bryan Cranston as Walter White (2008-2013)"
+    details: "Starring Bryan Cranston as Walter White, aka, Heisenberg (2008-2013)"
   },
   {
     question: "What's the name of the coffee shop in 'Friends'?",
@@ -180,11 +180,6 @@ export const tvShowsData = [
     details: "Former Navy SEAL turned PI in Hawaii"
   },
   {
-    question: "What's the name of the town in Riverdale?",
-    answer: "Riverdale",
-    details: "Dark take on the Archie Comics characters"
-  },
-  {
     question: "What's the name of the law firm in Suits?",
     answer: "Pearson Hardman",
     details: "Later becomes Pearson Specter, then other variations"
@@ -257,7 +252,7 @@ export const tvShowsData = [
   {
     question: "Which show features the character Tyrion Lannister?",
     answer: "Game of Thrones",
-    details: "The clever dwarf played by Peter Dinklage"
+    details: "The clever dwarf played by Peter Dinklage. Son of Tywin Lannister, brother to Jaime and Cersei. Master of Coin and Hand of the King/Queen"
   },
   {
     question: "What's the name of the island in Lost?",
@@ -273,6 +268,46 @@ export const tvShowsData = [
     question: "What's Tony Soprano's profession in The Sopranos?",
     answer: "Mob boss",
     details: "New Jersey mob boss dealing with family and therapy"
+  },
+     {
+    question: "What medieval-themed show features a modern teenager who becomes a knight?",
+    answer: "Dwight in Shining Armor",
+    details: "BYUtv series about Dwight, a teen who falls into a magical realm"
+  },
+  {
+    question: "Which show follows the Landry family as they discover a pond that leads to different time periods?",
+    answer: "The Way Home",
+    details: "Hallmark series where three generations travel through time via a magical pond"
+  },
+  {
+    question: "What's the name of the detective in the Canadian period drama set in Victorian-era Toronto?",
+    answer: "Detective William Murdoch",
+    details: "From 'Murdoch Mysteries' - a detective using innovative forensic techniques"
+  },
+  {
+    question: "Which obsessive-compulsive detective show features a former homicide investigator?",
+    answer: "Monk",
+    details: "Adrian Monk, played by Tony Shalhoub, solves crimes while dealing with OCD"
+  },
+  {
+    question: "What HBO dark comedy follows a hitman who wants to become an actor?",
+    answer: "Barry",
+    details: "Bill Hader stars as Barry Berkman, a hitman taking acting classes"
+  },
+  {
+    question: "Which police procedural follows the oldest rookie in the LAPD?",
+    answer: "The Rookie",
+    details: "Nathan Fillion plays John Nolan, who becomes a cop at age 45"
+  },
+  {
+    question: "What's the name of the secret government facility that stores supernatural artifacts?",
+    answer: "Warehouse 13",
+    details: "Syfy series about agents who collect and store dangerous mystical objects"
+  },
+  {
+    question: "Which Sylvester Stallone series follows a New York mobster building a criminal empire in Oklahoma?",
+    answer: "Tulsa King",
+    details: "Stallone plays Dwight 'The General' Manfredi in this Paramount+ crime drama"
   },
   {
     question: "Which show is set in the 1960s advertising world?",
@@ -295,16 +330,6 @@ export const tvShowsData = [
     details: "Extended family with three interconnected families"
   },
   {
-    question: "Which show is about a high school chemistry teacher?",
-    answer: "Breaking Bad",
-    details: "Walter White's transformation into Heisenberg"
-  },
-  {
-    question: "What's the name of the town in Gilmore Girls?",
-    answer: "Stars Hollow",
-    details: "Connecticut town where Lorelai and Rory live"
-  },
-  {
     question: "Which show features the character Jack Bauer?",
     answer: "24",
     details: "Counter-terrorism agent racing against time"
@@ -323,11 +348,6 @@ export const tvShowsData = [
     question: "What's the name of the high school in Friday Night Lights?",
     answer: "Dillon High School",
     details: "Texas high school football team and community"
-  },
-  {
-    question: "Which show features the character Tyrion Lannister?",
-    answer: "Game of Thrones",
-    details: "The Hand of the Queen in later seasons"
   },
   {
     question: "What's the name of the law firm in Boston Legal?",
@@ -390,11 +410,6 @@ export const tvShowsData = [
     details: "Former sheriff's deputy in zombie apocalypse"
   },
   {
-    question: "What's the name of the town in Twin Peaks?",
-    answer: "Twin Peaks, Washington",
-    details: "Small town with supernatural mysteries"
-  },
-  {
     question: "Which show is about time-traveling outlander?",
     answer: "Outlander",
     details: "Claire travels from 1945 to 1743 Scotland"
@@ -415,19 +430,9 @@ export const tvShowsData = [
     details: "Chronicles the reign of Queen Elizabeth II"
   },
   {
-    question: "Which show is about a chemistry teacher turned criminal?",
-    answer: "Breaking Bad",
-    details: "Walter White's descent into the drug world"
-  },
-  {
     question: "What's the name of the fictional continent in Game of Thrones?",
     answer: "Westeros",
     details: "Primary setting for the Seven Kingdoms"
-  },
-  {
-    question: "Which show features the character Tyrion Lannister?",
-    answer: "Game of Thrones",
-    details: "Played by Peter Dinklage, known for his wit"
   },
   {
     question: "What's the name of the town in Riverdale?",
@@ -465,11 +470,6 @@ export const tvShowsData = [
     details: "Firefly-class transport ship"
   },
   {
-    question: "Which show features the character Tyrion Lannister?",
-    answer: "Game of Thrones",
-    details: "The Imp, known for drinking and knowing things"
-  },
-  {
     question: "What's the name of the bar in How I Met Your Mother?",
     answer: "MacLaren's Pub",
     details: "Regular hangout for Ted and friends"
@@ -485,29 +485,14 @@ export const tvShowsData = [
     details: "Teaching hospital where J.D. works"
   },
   {
-    question: "Which show features the character Tyrion Lannister?",
-    answer: "Game of Thrones",
-    details: "Master of Coin and Hand of the King/Queen"
-  },
-  {
     question: "What's the name of the town in Gilmore Girls?",
     answer: "Stars Hollow, Connecticut",
     details: "Quirky small town where everyone knows everyone"
   },
   {
-    question: "Which show is about a high school chemistry teacher?",
-    answer: "Breaking Bad",
-    details: "Mr. White becomes Heisenberg"
-  },
-  {
     question: "What's the name of the spaceship in Star Trek: The Next Generation?",
     answer: "USS Enterprise NCC-1701-D",
     details: "Galaxy-class starship commanded by Captain Picard"
-  },
-  {
-    question: "Which show features the character Tyrion Lannister?",
-    answer: "Game of Thrones",
-    details: "Son of Tywin Lannister, brother to Jaime and Cersei"
   },
   {
     question: "What's the name of the coffee shop in Friends?",
