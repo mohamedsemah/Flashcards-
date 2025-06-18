@@ -1,34 +1,50 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './components/Header'
+import Flashcard from './components/Flashcard'
+import Navigation from './components/Navigation'
+import { tvShowsData } from './data/tvShowsData'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [currentCardIndex, setCurrentCardIndex] = useState(0)
+  const [isFlipped, setIsFlipped] = useState(false)
+
+  const getRandomCardIndex = () => {
+    let newIndex
+    do {
+      newIndex = Math.floor(Math.random() * tvShowsData.length)
+    } while (newIndex === currentCardIndex && tvShowsData.length > 1)
+    return newIndex
+  }
+
+  const handleNextCard = () => {
+    const newIndex = getRandomCardIndex()
+    setCurrentCardIndex(newIndex)
+    setIsFlipped(false) // Reset to front side when showing new card
+  }
+
+  const handleFlipCard = () => {
+    setIsFlipped(!isFlipped)
+  }
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="App">
+      <Header
+        title="Famous TV Shows Flashcards"
+        description="Test your knowledge of iconic television series from different eras and genres!"
+        totalCards={tvShowsData.length}
+      />
+
+      <div className="flashcard-container">
+        <Flashcard
+          cardData={tvShowsData[currentCardIndex]}
+          isFlipped={isFlipped}
+          onFlip={handleFlipCard}
+        />
+
+        <Navigation onNextCard={handleNextCard} />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 

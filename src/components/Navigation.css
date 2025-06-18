@@ -1,0 +1,35 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.next-button {
+  background: linear-gradient(135deg, #7209b7, #a663cc);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border: 2px solid transparent;
+}
+
+.next-button:hover {
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.next-button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.next-button:focus {
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}

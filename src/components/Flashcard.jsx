@@ -1,0 +1,25 @@
+import './Flashcard.css'
+
+function Flashcard({ cardData, isFlipped, onFlip }) {
+  return (
+    <div className="flashcard-wrapper">
+      <div className={`flashcard ${isFlipped ? 'flipped' : ''}`} onClick={onFlip}>
+        <div className="flashcard-front">
+          <div className="card-content">
+            <h2>{cardData.question}</h2>
+            <p className="flip-hint">Click to reveal answer</p>
+          </div>
+        </div>
+        <div className="flashcard-back">
+          <div className="card-content">
+            <h2>{cardData.answer}</h2>
+            <p className="additional-info">{cardData.details}</p>
+            <p className="flip-hint">Click to see question</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Flashcard
