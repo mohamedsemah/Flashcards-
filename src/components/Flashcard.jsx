@@ -12,6 +12,16 @@ function Flashcard({ cardData, isFlipped, onFlip }) {
         </div>
         <div className="flashcard-back">
           <div className="card-content">
+            {cardData.image && (
+              <img
+                src={cardData.image}
+                alt={cardData.answer}
+                className="card-image"
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                }}
+              />
+            )}
             <h2>{cardData.answer}</h2>
             <p className="additional-info">{cardData.details}</p>
             <p className="flip-hint">Click to see question</p>
