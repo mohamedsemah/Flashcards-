@@ -8,12 +8,7 @@ export const tvShowsData = [
 
 
 
-  {
-    question: "What's the name of the prison in Orange Is the New Black?",
-    answer: "Litchfield Penitentiary",
-    details: "A minimum-security federal prison in New York",
-    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=300&fit=crop&crop=center"
-  },
+
   {
     question: "Which show is about a serial killer who works for Miami Metro Police?",
     answer: "Dexter",
@@ -295,6 +290,12 @@ export const tvShowsData = [
     answer: "MacLaren's Pub",
     details: "Regular hangout for Ted and friends",
     image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&h=300&fit=crop&crop=center"
+  },
+  {
+    question: "What's the name of the prison in Orange Is the New Black?",
+    answer: "Litchfield Penitentiary",
+    details: "A minimum-security federal prison in New York",
+    image: "https://variety.com/wp-content/uploads/2019/07/oitnb_709_unit_00625_rc.jpg"
   },
   {
     question: "Which show is about a paper company in Scranton?",
