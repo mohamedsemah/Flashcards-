@@ -593,7 +593,6 @@ export const tvShowsData = [
     details: "Located in Lima, Ohio, home of the New Directions glee club",
     image: "https://public-files.gumroad.com/suppyn7ocx60chv5v6kaxges4ffy"
   },
-    
   {
     question: "Which Sylvester Stallone series follows a New York mobster building a criminal empire in Oklahoma?",
     answer: "Tulsa King",
