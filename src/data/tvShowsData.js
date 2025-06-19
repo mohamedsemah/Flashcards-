@@ -593,11 +593,11 @@ export const tvShowsData = [
     details: "Located in Lima, Ohio, home of the New Directions glee club",
     image: "https://public-files.gumroad.com/suppyn7ocx60chv5v6kaxges4ffy"
   },
+    
   {
     question: "Which Sylvester Stallone series follows a New York mobster building a criminal empire in Oklahoma?",
     answer: "Tulsa King",
     details: "Stallone plays Dwight 'The General' Manfredi in this Paramount+ crime drama",
     image: "https://wwwimage-us.pplusstatic.com/base/files/seo/66/92/74/7d2721e6-f5db-4e0d-b50f-22cf608e5813.jpg?format=webp"
   },
-    
 ]
