@@ -4,12 +4,7 @@
 
 export const tvShowsData = [
 
-  {
-    question: "What's the name of the hospital in House?",
-    answer: "Princeton-Plainsboro Teaching Hospital",
-    details: "Where Dr. Gregory House practices medicine",
-    image: "https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=400&h=300&fit=crop&crop=center"
-  },
+
   {
     question: "Which show features the character Jax Teller?",
     answer: "Sons of Anarchy",
@@ -285,6 +280,12 @@ export const tvShowsData = [
     answer: "Monk",
     details: "Adrian Monk, played by Tony Shalhoub, solves crimes while dealing with OCD",
     image: "https://blog.reelgood.com/wp-content/uploads/2025/01/Monk-Tv-series-1024x576.jpg"
+  },
+  {
+    question: "What's the name of the hospital in House?",
+    answer: "Princeton-Plainsboro Teaching Hospital",
+    details: "Where Dr. Gregory House practices medicine",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq484heav-2dJkeuVmer8ee0T1gF6eIg0k_w&s"
   },
   {
     question: "What does 'La Casa de Papel' translate to in English?",
