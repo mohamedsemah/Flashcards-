@@ -165,7 +165,7 @@ export const tvShowsData = [
     answer: "True Detective",
     details: "Louisiana detective in Season 1",
     image: "https://www.slashfilm.com/img/gallery/true-detectives-matthew-mcconaughey-wrote-a-450-page-character-analysis/l-intro-1681253079.jpg",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     question: "What's the name of the town in Riverdale?",
@@ -191,7 +191,7 @@ export const tvShowsData = [
   {
     question: "What is the flight number in Manifest?",
     answer: "Flight 828",
-    details: "Passengers experience time differently after landing",
+    details: "Passengers land more than 5 years after takeoff",
     image: "https://www.nme.com/wp-content/uploads/2023/06/Manifest-season-4-part-2.jpg",
     difficulty: "medium"
   },
@@ -256,7 +256,7 @@ export const tvShowsData = [
     answer: "Oswald State Correctional Facility",
     details: "Maximum-security prison setting for the HBO drama",
     image: "https://upload.wikimedia.org/wikipedia/it/4/4d/Penitenziario_di_Oswald.png",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     question: "How many main characters are connected in Sense8?",
@@ -371,11 +371,11 @@ export const tvShowsData = [
     difficulty: "easy"
   },
   {
-    question: "Which show is set in a paper company?",
+    question: "Which famous comedy show is set in a paper company?",
     answer: "The Office",
     details: "Dunder Mifflin Paper Company, Inc.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/1200px-Dunder_Mifflin%2C_Inc.svg.png",
-    difficulty: "easy"
+    difficulty: "medium"
   },
   {
     question: "What's the name of the coffee shop in 'Friends'?",
@@ -396,7 +396,7 @@ export const tvShowsData = [
     answer: "Crane, Poole & Schmidt",
     details: "Law firm featuring Alan Shore and Denny Crane",
     image: "https://www.televisionacademy.com/files/assets_r/containers/assets/Archives/BostonLegal-02-900x600.jpg/b1fa514652010ad526a2f6fe60b7a415/BostonLegal-02-900x600.jpg",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     question: "What's the name of the spaceship in Star Trek?",
@@ -445,7 +445,7 @@ export const tvShowsData = [
     answer: "McMann & Tate",
     details: "Where Darrin Stephens works",
     image: "https://ih1.redbubble.net/image.2617113399.7899/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     question: "What does Barney Stinson always say in How I Met Your Mother?",
@@ -473,7 +473,7 @@ export const tvShowsData = [
     answer: "A deadly virus (The Annapurna Remains)",
     details: "Time travelers try to prevent a viral apocalypse",
     image: "https://upload.wikimedia.org/wikipedia/en/9/9e/Amastigotes_in_a_chorionic_villus.jpg",
-    difficulty: "easy"
+    difficulty: "medium"
   },
   {
     question: "Which show is about a Miami forensics expert?",
@@ -501,7 +501,7 @@ export const tvShowsData = [
     answer: "The X-Files",
     details: "They investigate paranormal and extraterrestrial cases",
     image: "https://resizing.flixster.com/f0Z5MUzTlBzT3v0A51IGGHI6EhU=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p21268_v_h9_ao.jpg",
-    difficulty: "easy"
+    difficulty: "medium"
   },
   {
     question: "What type of supernatural creature is Scott McCall in Teen Wolf?",
@@ -522,7 +522,7 @@ export const tvShowsData = [
     answer: "Pearson Hardman",
     details: "Later becomes Pearson Specter, then other variations",
     image: "https://i.gyazo.com/f8eec2b29878fef1ebb69dba2c357beb.png",
-    difficulty: "easy"
+    difficulty: "medium"
   },
   {
     question: "What's Geralt of Rivia's profession in The Witcher?",
@@ -550,14 +550,14 @@ export const tvShowsData = [
     answer: "Pacific Princess",
     details: "The setting for romantic adventures at sea",
     image: "https://upload.wikimedia.org/wikipedia/commons/b/b5/Pacific_Princess_1987.jpg",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     question: "What's the name of the high school in Friday Night Lights?",
     answer: "Dillon High School",
     details: "Texas high school football team and community",
     image: "https://d2fxn1d7fsdeeo.cloudfront.net/kentuckyliving.com/wp-content/uploads/2017/01/07005422/AdobeStock_100003261-WEB.jpg",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     question: "What's the name of the town in Desperate Housewives?",
@@ -571,21 +571,21 @@ export const tvShowsData = [
     answer: "Four",
     details: "Alien who crash-lands on Earth and poses as a doctor",
     image: "https://somanyshows.com/wp-content/uploads/2024/06/NUP_190128_8000.jpg",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     question: "Which show features the character Olivia Benson?",
     answer: "Law & Order: SVU",
     details: "Special Victims Unit detective and captain",
     image: "https://img1.hulu.com/user/v3/artwork/720ef5c1-fc77-4924-98c5-491455a06895?base_image_bucket_name=image_manager&base_image=4f1dbf23-b10e-4002-90ba-2858259acec7&size=1200x630&format=webp&operations=%5B%7B%22gradient_vector%22%3A%22(0%2C0%2C0%2C0.5)%7C(0%2C0%2C0%2C0)%7C(0%2C600)%7C(0%2C240)%22%7D%2C%7B%22overlay%22%3A%7B%22position%22%3A%22SouthEast%7C(30%2C30)%22%2C%22operations%22%3A%5B%7B%22image%22%3A%22image_manager%7C89996f72-7b94-486e-852b-35beb77130a5%22%7D%2C%7B%22resize%22%3A%22204x204%7Cmax%22%7D%2C%7B%22extent%22%3A%22204x204%22%7D%5D%7D%7D%2C%5D",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     question: "What's Patrick Jane's former profession in The Mentalist?",
     answer: "Psychic medium (fake)",
     details: "Former fake psychic who becomes a CBI consultant",
     image: "https://dux0b4kt8xa5c.cloudfront.net/wp-content/uploads/2008/07/the-mentalist-patrick-jane.png",
-    difficulty: "easy"
+    difficulty: "medium"
   },
   {
     question: "Which show features the character Sheldon Cooper as an adult?",
@@ -599,7 +599,7 @@ export const tvShowsData = [
     answer: "Cheers",
     details: "Boston bar where everybody knows your name",
     image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu-DuC3McqeTV2aTJJCKoiNsAtY56yNja73tOLXhwRJvD_Tf1TD0nmA8oJhgm4aUys-H7zf8FkgGUjeikPKfx56BVA5d-pMzv2F9Vwwsk7vcriOKjevw5G6SGau9sLePaI6c8G/s1600/shot-of-cheers-cast-3-HR.jpg",
-    difficulty: "easy"
+    difficulty: "medium"
   },
   {
     question: "What's the name of the secret government facility that stores supernatural artifacts?",
@@ -620,7 +620,7 @@ export const tvShowsData = [
     answer: "Time travel to prevent the apocalypse",
     details: "Consciousness from the future inhabits present-day bodies",
     image: "https://ntvb.tmsimg.com/assets/p13257200_b_h10_ad.jpg?w=1280&h=720",
-    difficulty: "easy"
+    difficulty: "medium"
   },
   {
     question: "Who lives at 221B Baker Street?",
@@ -634,7 +634,7 @@ export const tvShowsData = [
     answer: "Detective William Murdoch",
     details: "From 'Murdoch Mysteries' - a detective using innovative forensic techniques",
     image: "https://images.gem.cbc.ca/v1/synps-cbc/show/perso/cbc_murdoch_mysteries_ott_program_v06.jpg?impolicy=ott&im=Resize=1200&quality=75",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     question: "Which show follows the Landry family as they discover a pond that leads to different time periods?",
@@ -662,7 +662,7 @@ export const tvShowsData = [
     answer: "Barry",
     details: "Bill Hader stars as Barry Berkman, a hitman taking acting classes",
     image: "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=400&h=300&fit=crop&crop=center",
-    difficulty: "easy"
+    difficulty: "medium"
   },
   {
     question: "Which show is set in the 1960s advertising world?",
@@ -683,14 +683,14 @@ export const tvShowsData = [
     answer: "Sterling Cooper",
     details: "Later becomes Sterling Cooper Draper Pryce, then SC&P",
     image: "https://i.redd.it/6ckxecruvs2b1.png",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     question: "What's the name of the high school in Glee?",
     answer: "William McKinley High School",
     details: "Located in Lima, Ohio, home of the New Directions glee club",
     image: "https://public-files.gumroad.com/suppyn7ocx60chv5v6kaxges4ffy",
-    difficulty: "medium"
+    difficulty: "hard"
   },
   {
     question: "Which Sylvester Stallone series follows a New York mobster building a criminal empire in Oklahoma?",
