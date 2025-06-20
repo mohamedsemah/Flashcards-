@@ -48,13 +48,38 @@
   text-align: center;
 }
 
-.flashcard-front {
-  background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+/* Easy difficulty - Light Blue */
+.flashcard-front.easy {
+  background: linear-gradient(135deg, #74b9ff, #0984e3);
   color: white;
 }
 
-.flashcard-back {
-  background: linear-gradient(135deg, #00d2d3, #54a0ff);
+.flashcard-back.easy {
+  background: linear-gradient(135deg, #81ecec, #00b894);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* Medium difficulty - Yellow */
+.flashcard-front.medium {
+  background: linear-gradient(135deg, #fdcb6e, #e17055);
+  color: white;
+}
+
+.flashcard-back.medium {
+  background: linear-gradient(135deg, #ffeaa7, #fab1a0);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* Hard difficulty - Red */
+.flashcard-front.hard {
+  background: linear-gradient(135deg, #fd79a8, #e84393);
+  color: white;
+}
+
+.flashcard-back.hard {
+  background: linear-gradient(135deg, #ff7675, #d63031);
   color: white;
   transform: rotateY(180deg);
 }

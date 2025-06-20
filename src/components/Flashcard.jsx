@@ -4,13 +4,13 @@ function Flashcard({ cardData, isFlipped, onFlip }) {
   return (
     <div className="flashcard-wrapper">
       <div className={`flashcard ${isFlipped ? 'flipped' : ''}`} onClick={onFlip}>
-        <div className="flashcard-front">
+        <div className={`flashcard-front ${cardData.difficulty}`}>
           <div className="card-content">
             <h2>{cardData.question}</h2>
             <p className="flip-hint">Click to reveal answer</p>
           </div>
         </div>
-        <div className="flashcard-back">
+        <div className={`flashcard-back ${cardData.difficulty}`}>
           <div className="card-content">
             {cardData.image && (
               <img
