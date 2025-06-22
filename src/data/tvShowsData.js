@@ -135,7 +135,7 @@ export const tvShowsData = [
   {
     question: "What does FBI agent Jane Doe have covering her body in Blindspot?",
     answer: "Tattoos",
-    details: "Mysterious tattoos that contain clues to crimes",
+    details: "Mysterious tattoos that contain clues to crimes along with the name of an FBI agent",
     image: "https://starcasm.net/wp-content/uploads/2015/09/Blindspot_tattoos_back_.jpg",
     difficulty: "easy"
   },
