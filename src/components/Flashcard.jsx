@@ -1,13 +1,28 @@
 import './Flashcard.css'
 
-function Flashcard({ cardData, isFlipped, onFlip }) {
+function Flashcard({ cardData, isFlipped, onFlip, hasGuessed }) {
+  const handleClick = () => {
+    // Only allow flipping if user has made a guess or if card is already flipped
+    if (hasGuessed || isFlipped) {
+      onFlip()
+    }
+  }
+
   return (
     <div className="flashcard-wrapper">
-      <div className={`flashcard ${isFlipped ? 'flipped' : ''}`} onClick={onFlip}>
+      <div
+        className={`flashcard ${isFlipped ? 'flipped' : ''} ${!hasGuessed && !isFlipped ? 'locked' : ''}`}
+        onClick={handleClick}
+      >
         <div className={`flashcard-front ${cardData.difficulty}`}>
           <div className="card-content">
             <h2>{cardData.question}</h2>
-            <p className="flip-hint">Click to reveal answer</p>
+            <p className="flip-hint">
+              {!hasGuessed && !isFlipped
+                ? "Submit your guess below first!"
+                : "Click to reveal answer"
+              }
+            </p>
           </div>
         </div>
         <div className={`flashcard-back ${cardData.difficulty}`}>

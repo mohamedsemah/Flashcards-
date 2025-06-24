@@ -3,57 +3,63 @@ import './App.css'
 import Header from './components/Header'
 import Flashcard from './components/Flashcard'
 import Navigation from './components/Navigation'
+import GuessInput from './components/GuessInput'
 import { tvShowsData } from './data/tvShowsData'
 
 function App() {
   const [currentCardIndex, setCurrentCardIndex] = useState(0)
   const [isFlipped, setIsFlipped] = useState(false)
-  const [cardHistory, setCardHistory] = useState([0]) // Track visited cards
-  const [historyIndex, setHistoryIndex] = useState(0) // Current position in history
-
-  const getRandomCardIndex = () => {
-    let newIndex
-    do {
-      newIndex = Math.floor(Math.random() * tvShowsData.length)
-    } while (newIndex === currentCardIndex && tvShowsData.length > 1)
-    return newIndex
-  }
+  const [userGuess, setUserGuess] = useState('')
+  const [guessResult, setGuessResult] = useState(null) // 'correct', 'incorrect', or null
+  const [hasGuessed, setHasGuessed] = useState(false)
 
   const handleNextCard = () => {
-    setIsFlipped(false) // Reset to front side FIRST
-    // Small delay to ensure flip animation completes before changing card
-    setTimeout(() => {
-      const newIndex = getRandomCardIndex()
-      setCurrentCardIndex(newIndex)
-
-      // Add to history if we're at the end of history
-      if (historyIndex === cardHistory.length - 1) {
-        setCardHistory(prev => [...prev, newIndex])
-        setHistoryIndex(prev => prev + 1)
-      } else {
-        // If we're in the middle of history, replace everything after current position
-        setCardHistory(prev => [...prev.slice(0, historyIndex + 1), newIndex])
-        setHistoryIndex(prev => prev + 1)
-      }
-    }, 150) // 150ms delay - shorter than the 600ms flip animation
+    if (currentCardIndex < tvShowsData.length - 1) {
+      setIsFlipped(false)
+      setUserGuess('')
+      setGuessResult(null)
+      setHasGuessed(false)
+      // Small delay to ensure flip animation completes before changing card
+      setTimeout(() => {
+        setCurrentCardIndex(prev => prev + 1)
+      }, 150)
+    }
   }
 
   const handlePreviousCard = () => {
-    if (historyIndex > 0) {
-      setIsFlipped(false) // Reset to front side FIRST
+    if (currentCardIndex > 0) {
+      setIsFlipped(false)
+      setUserGuess('')
+      setGuessResult(null)
+      setHasGuessed(false)
       setTimeout(() => {
-        const prevIndex = historyIndex - 1
-        setHistoryIndex(prevIndex)
-        setCurrentCardIndex(cardHistory[prevIndex])
+        setCurrentCardIndex(prev => prev - 1)
       }, 150)
     }
   }
 
   const handleFlipCard = () => {
-    setIsFlipped(!isFlipped)
+    // Only allow flipping if user has made a guess or if card is already flipped
+    if (hasGuessed || isFlipped) {
+      setIsFlipped(!isFlipped)
+    }
   }
 
-  const canGoPrevious = historyIndex > 0
+  const handleGuessSubmit = (guess) => {
+    const correctAnswer = tvShowsData[currentCardIndex].answer.toLowerCase().trim()
+    const userAnswer = guess.toLowerCase().trim()
+
+    // Check if the guess is correct (allow for some flexibility in matching)
+    const isCorrect = correctAnswer === userAnswer ||
+                     correctAnswer.includes(userAnswer) ||
+                     userAnswer.includes(correctAnswer.split(' ')[0]) // Match first word for partial credit
+
+    setGuessResult(isCorrect ? 'correct' : 'incorrect')
+    setHasGuessed(true)
+  }
+
+  const canGoPrevious = currentCardIndex > 0
+  const canGoNext = currentCardIndex < tvShowsData.length - 1
 
   return (
     <div className="App">
@@ -61,6 +67,7 @@ function App() {
         title="Famous TV Shows Flashcards"
         description="Test your knowledge of iconic television series from different eras and genres!"
         totalCards={tvShowsData.length}
+        currentCard={currentCardIndex + 1}
       />
 
       <div className="flashcard-container">
@@ -68,12 +75,23 @@ function App() {
           cardData={tvShowsData[currentCardIndex]}
           isFlipped={isFlipped}
           onFlip={handleFlipCard}
+          hasGuessed={hasGuessed}
+        />
+
+        <GuessInput
+          userGuess={userGuess}
+          setUserGuess={setUserGuess}
+          onGuessSubmit={handleGuessSubmit}
+          guessResult={guessResult}
+          hasGuessed={hasGuessed}
+          isFlipped={isFlipped}
         />
 
         <Navigation
           onNextCard={handleNextCard}
           onPreviousCard={handlePreviousCard}
           canGoPrevious={canGoPrevious}
+          canGoNext={canGoNext}
         />
       </div>
     </div>
