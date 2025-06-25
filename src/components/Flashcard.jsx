@@ -1,6 +1,6 @@
 import './Flashcard.css'
 
-function Flashcard({ cardData, isFlipped, onFlip, hasGuessed }) {
+function Flashcard({ cardData, isFlipped, onFlip, hasGuessed, onMaster, canMaster }) {
   const handleClick = () => {
     // Only allow flipping if user has made a guess or if card is already flipped
     if (hasGuessed || isFlipped) {
@@ -39,7 +39,21 @@ function Flashcard({ cardData, isFlipped, onFlip, hasGuessed }) {
             )}
             <h2>{cardData.answer}</h2>
             <p className="additional-info">{cardData.details}</p>
-            <p className="flip-hint">Click to see question</p>
+            <div className="card-actions">
+              <p className="flip-hint">Click to see question</p>
+              {canMaster && (
+                <button
+                  className="master-btn"
+                  onClick={(e) => {
+                    e.stopPropagation() // Prevent card flip
+                    onMaster()
+                  }}
+                  title="Mark this card as mastered"
+                >
+                  ✓ Master This Card
+                </button>
+              )}
+            </div>
           </div>
         </div>
       </div>

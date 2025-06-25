@@ -11,6 +11,7 @@
   box-sizing: border-box;
   margin: 0;
   overflow-x: hidden;
+  position: relative;
 }
 
 .flashcard-container {
@@ -19,9 +20,72 @@
   align-items: center;
   gap: 30px;
   width: 100%;
-  max-width: 800px;
+  max-width: 1600px;
   margin-top: 20px;
   flex: 1;
+}
+
+.card-and-input-container {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.card-and-input-container .flashcard-wrapper {
+  flex: 1;
+  max-width: 1000px;
+  min-width: 800px;
+}
+
+.card-and-input-container .guess-input-container {
+  flex: 0 0 350px;
+  max-width: 350px;
+}
+
+.input-side {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 0 0 350px;
+  max-width: 350px;
+}
+
+.controls-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.mastered-toggle-btn {
+  background: linear-gradient(135deg, #fd79a8, #e84393);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(253, 121, 168, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.mastered-toggle-btn:hover {
+  background: linear-gradient(135deg, #e84393, #d63a8e);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(253, 121, 168, 0.6);
+}
+
+.mastered-toggle-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 15px rgba(253, 121, 168, 0.4);
 }
 
 * {
@@ -31,4 +95,57 @@
 body {
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 768px) {
+  .controls-row {
+    gap: 15px;
+  }
+
+  .mastered-toggle-btn {
+    padding: 10px 15px;
+    font-size: 0.8rem;
+  }
+
+  .card-and-input-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .card-and-input-container .flashcard-wrapper {
+    flex: none;
+    width: 100%;
+    max-width: 600px;
+    min-width: auto;
+  }
+
+  .card-and-input-container .guess-input-container {
+    flex: none;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .input-side {
+    flex: none;
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .controls-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mastered-toggle-btn {
+    padding: 8px 12px;
+    font-size: 0.7rem;
+  }
+
+  .card-and-input-container {
+    gap: 15px;
+  }
 }

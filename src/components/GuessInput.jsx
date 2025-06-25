@@ -12,6 +12,15 @@ function GuessInput({ userGuess, setUserGuess, onGuessSubmit, guessResult, hasGu
     setUserGuess(e.target.value)
   }
 
+  const handleGuessAgain = () => {
+    setUserGuess('')
+    // We'll need to add this function to reset the guess state
+    if (typeof onGuessSubmit === 'function') {
+      // Reset the guess result by calling parent function
+      onGuessSubmit(null, true) // Second parameter indicates reset
+    }
+  }
+
   return (
     <div className="guess-input-container">
       {!isFlipped ? (
@@ -27,15 +36,26 @@ function GuessInput({ userGuess, setUserGuess, onGuessSubmit, guessResult, hasGu
               onChange={handleInputChange}
               placeholder="Enter your answer here..."
               className={`guess-input ${guessResult ? `guess-${guessResult}` : ''}`}
-              disabled={hasGuessed}
+              disabled={hasGuessed && guessResult === 'correct'}
             />
-            <button
-              type="submit"
-              className={`guess-submit ${guessResult ? `result-${guessResult}` : ''}`}
-              disabled={!userGuess.trim() || hasGuessed}
-            >
-              {hasGuessed ? 'Submitted' : 'Submit Guess'}
-            </button>
+            <div className="button-group">
+              <button
+                type="submit"
+                className={`guess-submit ${guessResult ? `result-${guessResult}` : ''}`}
+                disabled={!userGuess.trim() || (hasGuessed && guessResult === 'correct')}
+              >
+                {hasGuessed && guessResult === 'correct' ? 'Correct!' : hasGuessed ? 'Submitted' : 'Submit Guess'}
+              </button>
+              {hasGuessed && guessResult === 'incorrect' && (
+                <button
+                  type="button"
+                  className="guess-again-btn"
+                  onClick={handleGuessAgain}
+                >
+                  Guess Again
+                </button>
+              )}
+            </div>
           </div>
 
           {guessResult && (
@@ -46,7 +66,7 @@ function GuessInput({ userGuess, setUserGuess, onGuessSubmit, guessResult, hasGu
                 </span>
               ) : (
                 <span className="feedback-text">
-                  ✗ Not quite right. Click the card to see the correct answer.
+                  ✗ Not quite right. Try again or click the card to see the answer.
                 </span>
               )}
             </div>
